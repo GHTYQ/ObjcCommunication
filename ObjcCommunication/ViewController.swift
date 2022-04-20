@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         self.view.addSubview(self.label)
         // 接收通知
         NotificationCenter.default.addObserver(self, selector: #selector(receiveNoti), name: NSNotification.Name.init(rawValue: "noti"), object: nil)
-        
+        // 测试
     }
 }
 // tableView
